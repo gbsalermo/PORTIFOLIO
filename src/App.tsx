@@ -92,7 +92,7 @@ function App() {
 
           <div className="hero-visual reveal delay-1" aria-label="Ilustração de ambiente de desenvolvimento">
             <div className="visual-frame">
-              <img src="./workspace.webp" alt="Ilustração pixel art de desenvolvedor em ambiente de trabalho" />
+              <img src="./eu.png" alt="Ilustração pixel art de desenvolvedor em ambiente de trabalho" />
               <div className="visual-overlay" />
               <div className="code-card">
                 <div className="code-card-head">
