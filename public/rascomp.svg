@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">RASCOMP</title>
+  <desc id="desc">Visual abstrato de competição de robótica com chaveamento e seguidor de linha.</desc>
+  <rect width="1200" height="760" fill="#0b0b0d"/>
+  <g stroke="#202026" stroke-width="1" opacity=".8">
+    <path d="M0 95h1200M0 190h1200M0 285h1200M0 380h1200M0 475h1200M0 570h1200M0 665h1200"/>
+    <path d="M150 0v760M300 0v760M450 0v760M600 0v760M750 0v760M900 0v760M1050 0v760"/>
+  </g>
+  <g transform="translate(86 90)">
+    <text x="0" y="0" fill="#73737d" font-family="ui-monospace,monospace" font-size="20" letter-spacing="5">ROBOTICS COMPETITION API</text>
+    <text x="0" y="92" fill="#f3f3f5" font-family="Arial,Helvetica,sans-serif" font-size="96" font-weight="800" letter-spacing="-5">RASCOMP</text>
+    <rect x="2" y="126" width="184" height="6" rx="3" fill="#b91c1c"/>
+  </g>
+  <g transform="translate(92 350)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 36h158m0 0v-26m0 26v74m0-74h145m0 0v74m0-74h145m0 0v-26m0 26v74m0-37h160m0 0v-70m0 70v70m0-70h168" stroke="#5e5e68" stroke-width="4"/>
+    <circle cx="0" cy="36" r="10" fill="#e23b3b" stroke="none"/>
+    <circle cx="158" cy="110" r="9" fill="#686872" stroke="none"/>
+    <circle cx="303" cy="110" r="9" fill="#686872" stroke="none"/>
+    <circle cx="448" cy="110" r="9" fill="#686872" stroke="none"/>
+    <circle cx="608" cy="77" r="11" fill="#e23b3b" stroke="none"/>
+    <circle cx="776" cy="77" r="12" fill="#f3f3f5" stroke="none"/>
+  </g>
+  <g transform="translate(838 118)">
+    <rect width="262" height="174" rx="24" fill="#111114" stroke="#29292f"/>
+    <text x="28" y="42" fill="#666670" font-family="ui-monospace,monospace" font-size="15">FOLLOW_LINE</text>
+    <path d="M30 126c36-72 78 46 122-24s68-40 82-6" fill="none" stroke="#e23b3b" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(838 330)">
+    <rect width="262" height="174" rx="24" fill="#111114" stroke="#29292f"/>
+    <text x="28" y="42" fill="#666670" font-family="ui-monospace,monospace" font-size="15">SUMO</text>
+    <circle cx="131" cy="108" r="48" fill="none" stroke="#4b4b54" stroke-width="5"/>
+    <rect x="93" y="91" width="32" height="28" rx="5" fill="#e23b3b"/>
+    <rect x="139" y="91" width="32" height="28" rx="5" fill="#85858d"/>
+  </g>
+  <g transform="translate(90 662)" font-family="ui-monospace,monospace" font-size="16" fill="#767680">
+    <text x="0" y="0">JAVA 21</text>
+    <text x="130" y="0">SPRING BOOT</text>
+    <text x="300" y="0">MYSQL</text>
+    <text x="390" y="0">FLYWAY</text>
+    <text x="500" y="0">JUNIT</text>
+    <text x="590" y="0">OPENAPI</text>
+  </g>
+</svg>
