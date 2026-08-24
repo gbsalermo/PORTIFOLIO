@@ -69,8 +69,9 @@ body::after {
   min-height: 520px;
 }
 
+/* Architecture previews are intentionally large: they are the visual demo of backend work. */
 .case-visual > img.contain {
-  padding: 54px;
+  padding: 18px;
 }
 
 .project-card {
@@ -110,6 +111,10 @@ body::after {
   .busivs-demo {
     min-height: 390px;
   }
+
+  .case-visual > img.contain {
+    padding: 14px;
+  }
 }
 
 @media (max-width: 680px) {
@@ -124,7 +129,7 @@ body::after {
   }
 
   .case-visual > img.contain {
-    padding: 34px;
+    padding: 10px;
   }
 }
 
