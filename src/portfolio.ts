@@ -83,6 +83,36 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: 'RASCOMP',
+    eyebrow: {
+      pt: 'Backend · Competições de robótica',
+      en: 'Backend · Robotics competitions',
+    },
+    description: {
+      pt: 'Plataforma para organizar competições de robótica da inscrição ao resultado, com fluxos próprios para Sumô e Seguidor de Linha.',
+      en: 'Platform for managing robotics competitions from registration to results, with dedicated Sumo and Line Follower workflows.',
+    },
+    challenge: {
+      pt: 'Centralizar inscrições, inspeções, regras, tentativas, rankings, chaveamentos, partidas e resultados sem espalhar a operação por planilhas e controles manuais.',
+      en: 'Centralize registrations, inspections, rules, attempts, rankings, brackets, matches and results instead of spreading operations across spreadsheets and manual controls.',
+    },
+    solution: {
+      pt: 'API Java/Spring Boot com domínios separados para FOLLOW_LINE e SUMO, persistência MySQL, Flyway e avanço automático de resultados competitivos.',
+      en: 'Java/Spring Boot API with separate FOLLOW_LINE and SUMO domains, MySQL persistence, Flyway and automatic competitive-result progression.',
+    },
+    result: {
+      pt: 'Backend validado manualmente e por testes automatizados, CI ativa e contrato da API congelado para documentação OpenAPI/Swagger.',
+      en: 'Backend validated through manual and automated tests, active CI and a frozen API contract prepared for OpenAPI/Swagger documentation.',
+    },
+    stack: ['Java 21', 'Spring Boot', 'MySQL', 'JPA/Hibernate', 'Flyway', 'JUnit/Mockito', 'OpenAPI'],
+    github: 'https://github.com/gbsalermo/Rascomp',
+    status: { pt: 'API validada', en: 'API validated' },
+    featured: true,
+    preview: './rascomp.svg',
+    previewAlt: { pt: 'Visual do projeto RASCOMP', en: 'RASCOMP project visual' },
+    previewFit: 'contain',
+  },
+  {
     title: 'Butler',
     eyebrow: {
       pt: 'Assistente pessoal · Telegram',
@@ -92,24 +122,11 @@ export const projects: Project[] = [
       pt: 'Assistente pessoal determinístico que integra tarefas, agenda, estudos, finanças, musculação, memória contextual e biblioteca de conhecimento.',
       en: 'Deterministic personal assistant integrating tasks, calendar, studies, finances, training, contextual memory and a knowledge library.',
     },
-    challenge: {
-      pt: 'Unificar organização cotidiana e linguagem natural sem permitir que contexto ou IA sobrescrevam regras funcionais.',
-      en: 'Unify daily organization and natural language without letting context or AI override functional rules.',
-    },
-    solution: {
-      pt: 'Core determinístico, roteamento por intenção, memória por usuário, sugestões confirmáveis e biblioteca opcional.',
-      en: 'Deterministic core, intent routing, per-user memory, confirmable suggestions and an optional library.',
-    },
-    result: {
-      pt: 'Arquitetura em tiers com D1 e regressão automática no GitHub Actions.',
-      en: 'Tiered architecture with D1 and automated regression tests in GitHub Actions.',
-    },
     stack: ['Python', 'Cloudflare Workers', 'D1', 'Telegram API', 'Pytest', 'GitHub Actions'],
     github: 'https://github.com/gbsalermo/Butler-bot',
     status: { pt: 'Em evolução', en: 'Evolving' },
-    featured: true,
-    preview: 'https://raw.githubusercontent.com/gbsalermo/Butler-bot/main/assets/butler.png',
-    previewAlt: { pt: 'Mascote do Butler Bot', en: 'Butler Bot mascot' },
+    preview: './butler.svg',
+    previewAlt: { pt: 'Visual do Butler', en: 'Butler visual' },
     previewFit: 'contain',
   },
   {
@@ -124,22 +141,6 @@ export const projects: Project[] = [
     status: { pt: 'Projeto acadêmico', en: 'Academic project' },
     preview: 'https://raw.githubusercontent.com/gbsalermo/PIPETA/main/PIPETA/Imagens%20projeto/SIMULA%C3%87%C3%83O%20IRRIGADOR.png',
     previewAlt: { pt: 'Simulação do sistema PIPETA', en: 'PIPETA system simulation' },
-  },
-  {
-    title: 'Library Manager',
-    eyebrow: {
-      pt: 'Java Desktop · Estruturas de dados',
-      en: 'Java Desktop · Data structures',
-    },
-    description: {
-      pt: 'Sistema desktop para gerenciamento de livros com Swing e implementação própria de lista duplamente encadeada.',
-      en: 'Desktop library manager built with Swing and a custom doubly linked list implementation.',
-    },
-    stack: ['Java', 'Swing', 'Estruturas de Dados'],
-    github: 'https://github.com/gbsalermo/SistemaBiblioteca',
-    status: { pt: 'Acadêmico', en: 'Academic' },
-    preview: 'https://raw.githubusercontent.com/gbsalermo/SistemaBiblioteca/main/docs/demo.gif',
-    previewAlt: { pt: 'Demonstração do Library Manager', en: 'Library Manager demo' },
   },
   {
     title: 'Landing Page Audiovisual',
