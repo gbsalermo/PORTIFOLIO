@@ -51,8 +51,11 @@ export const projects: Project[] = [
     github: 'https://github.com/gbsalermo/Sistema-SGL',
     status: { pt: 'Backend concluído', en: 'Backend completed' },
     featured: true,
-    preview: 'https://raw.githubusercontent.com/gbsalermo/Sistema-SGL/main/docs/LOGO.png',
-    previewAlt: { pt: 'Logo do SGL', en: 'SGL logo' },
+    preview: './sgl-architecture.svg',
+    previewAlt: {
+      pt: 'Arquitetura do SGL com camadas da API, domínio, regras FEFO/FIFO e persistência',
+      en: 'SGL architecture showing API layers, domain, FEFO/FIFO rules and persistence',
+    },
     previewFit: 'contain',
   },
   {
@@ -108,8 +111,11 @@ export const projects: Project[] = [
     github: 'https://github.com/gbsalermo/Rascomp',
     status: { pt: 'API validada', en: 'API validated' },
     featured: true,
-    preview: './rascomp.svg',
-    previewAlt: { pt: 'Visual do projeto RASCOMP', en: 'RASCOMP project visual' },
+    preview: './rascomp-architecture.svg',
+    previewAlt: {
+      pt: 'Arquitetura do RASCOMP com gestão, portal público, API, persistência e fluxos Follow Line e Sumô',
+      en: 'RASCOMP architecture with management, public portal, API, persistence and Follow Line and Sumo flows',
+    },
     previewFit: 'contain',
   },
   {
