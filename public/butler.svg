@@ -1,29 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
-  <title id="title">Butler</title>
-  <desc id="desc">Visual abstrato de assistente pessoal em terminal.</desc>
-  <rect width="1000" height="620" fill="#0b0b0d"/>
-  <g stroke="#202026" stroke-width="1" opacity=".7">
-    <path d="M0 103h1000M0 206h1000M0 309h1000M0 412h1000M0 515h1000"/>
-    <path d="M125 0v620M250 0v620M375 0v620M500 0v620M625 0v620M750 0v620M875 0v620"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Demonstração do Butler</title>
+  <desc id="desc">Dois exemplos do Butler no Telegram: cadastro de prova e menu de matérias.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0c"/><stop offset="1" stop-color="#121217"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="518" rx="27" fill="none" stroke="#29292f"/>
+
+  <text x="44" y="50" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="24" font-weight="700">BUTLER / REAL INTERACTIONS</text>
+  <text x="44" y="80" fill="#777780" font-family="Inter,Arial,sans-serif" font-size="14">Rotinas, provas e organização acadêmica direto pelo Telegram</text>
+
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="44" y="112" width="536" height="356" rx="22" fill="#111216" stroke="#303038"/>
+    <text x="70" y="146" fill="#f4f4f5" font-size="16" font-weight="700">EXEMPLO 01 · PROVA + ROTINA</text>
+    <text x="70" y="172" fill="#74747d" font-size="12">conversa natural → ação registrada</text>
+
+    <rect x="70" y="198" width="385" height="74" rx="15" fill="#1c1f24"/>
+    <text x="88" y="226" fill="#f4f4f5" font-size="15">🧘 Rotina — Beber água</text>
+    <text x="88" y="250" fill="#a6a6ae" font-size="13">⏰ Checkpoint 10:00 · responda “feito”</text>
+
+    <rect x="176" y="288" width="362" height="54" rx="15" fill="#3c2b7a"/>
+    <text x="194" y="321" fill="#f4f4f5" font-size="15">Tenho prova de física dia 02/09</text>
+
+    <rect x="70" y="356" width="442" height="82" rx="15" fill="#1c1f24"/>
+    <text x="88" y="386" fill="#f4f4f5" font-size="15">📝 Prova de Física II cadastrada</text>
+    <text x="88" y="412" fill="#a6a6ae" font-size="13">02/09 · lembrete automático antes da prova</text>
+
+    <rect x="620" y="112" width="536" height="356" rx="22" fill="#111216" stroke="#303038"/>
+    <text x="646" y="146" fill="#f4f4f5" font-size="16" font-weight="700">EXEMPLO 02 · MATÉRIAS</text>
+    <text x="646" y="172" fill="#74747d" font-size="12">menu contextual para gestão acadêmica</text>
+
+    <rect x="646" y="198" width="230" height="56" rx="14" fill="#2a2b31"/>
+    <text x="761" y="232" text-anchor="middle" fill="#f4f4f5" font-size="14" font-weight="700">📚 Minhas matérias</text>
+    <rect x="892" y="198" width="238" height="56" rx="14" fill="#2a2b31"/>
+    <text x="1011" y="232" text-anchor="middle" fill="#f4f4f5" font-size="14" font-weight="700">⚙ Gerenciar matérias</text>
+
+    <rect x="646" y="268" width="230" height="56" rx="14" fill="#2a2b31"/>
+    <text x="761" y="302" text-anchor="middle" fill="#f4f4f5" font-size="14" font-weight="700">📝 Adicionar prova</text>
+    <rect x="892" y="268" width="238" height="56" rx="14" fill="#2a2b31"/>
+    <text x="1011" y="302" text-anchor="middle" fill="#f4f4f5" font-size="14" font-weight="700">📋 Provas</text>
+
+    <rect x="646" y="338" width="230" height="56" rx="14" fill="#2a2b31"/>
+    <text x="761" y="372" text-anchor="middle" fill="#f4f4f5" font-size="14" font-weight="700">📊 Ver faltas</text>
+    <rect x="892" y="338" width="238" height="56" rx="14" fill="#2a2b31"/>
+    <text x="1011" y="372" text-anchor="middle" fill="#f4f4f5" font-size="14" font-weight="700">⚙ Limite de faltas</text>
+
+    <rect x="646" y="408" width="484" height="42" rx="12" fill="#241216" stroke="#7f1d1d"/>
+    <text x="888" y="434" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="700">📥 Importar grade por PDF / texto</text>
   </g>
-  <rect x="90" y="82" width="820" height="456" rx="28" fill="#101012" stroke="#2a2a30"/>
-  <circle cx="130" cy="122" r="8" fill="#b91c1c"/>
-  <circle cx="158" cy="122" r="8" fill="#34343a"/>
-  <circle cx="186" cy="122" r="8" fill="#34343a"/>
-  <text x="218" y="128" fill="#666670" font-family="ui-monospace,monospace" font-size="18">butler/core</text>
-  <g transform="translate(150 212)" font-family="ui-monospace,monospace">
-    <text x="0" y="0" fill="#e23b3b" font-size="22">&gt;</text>
-    <text x="38" y="0" fill="#d8d8dd" font-size="22">organizar hoje</text>
-    <text x="0" y="62" fill="#686872" font-size="18">tarefas · agenda · estudos · memória</text>
-    <rect x="0" y="112" width="560" height="70" rx="14" fill="#151518" stroke="#2b2b31"/>
-    <text x="24" y="155" fill="#a7a7ae" font-size="18">core determinístico → ação confirmada</text>
-  </g>
-  <g transform="translate(736 330)">
-    <circle cx="0" cy="0" r="72" fill="#151518" stroke="#303038"/>
-    <rect x="-38" y="-25" width="76" height="54" rx="16" fill="#222229"/>
-    <circle cx="-17" cy="0" r="7" fill="#e23b3b"/>
-    <circle cx="17" cy="0" r="7" fill="#e23b3b"/>
-    <path d="M-22 38h44" stroke="#5d5d67" stroke-width="5" stroke-linecap="round"/>
-  </g>
-  <text x="150" y="494" fill="#f3f3f5" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800">BUTLER</text>
 </svg>
