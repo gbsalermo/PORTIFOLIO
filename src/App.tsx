@@ -9,6 +9,7 @@ import {
   FiLinkedin,
   FiMail,
   FiMenu,
+  FiPhone,
   FiX,
 } from 'react-icons/fi'
 import {
@@ -67,6 +68,7 @@ const copy = {
     contactText:
       'Estou aberto a conversar sobre backend Java, projetos de software, automação e oportunidades em engenharia de software.',
     email: 'Email',
+    phone: 'Telefone',
     resume: 'Currículo PDF',
     footer: 'Java Backend · Engenharia · Automação',
     languageLabel: 'Alterar idioma',
@@ -123,6 +125,7 @@ const copy = {
     contactText:
       'I am open to conversations about Java backend, software projects, automation and software-engineering opportunities.',
     email: 'Email',
+    phone: 'Phone',
     resume: 'Resume PDF',
     footer: 'Java Backend · Engineering · Automation',
     languageLabel: 'Change language',
@@ -439,6 +442,7 @@ function App() {
           </div>
           <div className="contact-actions">
             <a href="mailto:salermojgabriel@gmail.com"><FiMail /> {c.email} <FiArrowUpRight /></a>
+            <a href="tel:+5575999780174"><FiPhone /> {c.phone}: +55 (75) 99978-0174 <FiArrowUpRight /></a>
             <a href={resumeHref} target="_blank" rel="noreferrer"><FiDownload /> {c.resume} <FiArrowUpRight /></a>
             <a href="https://www.linkedin.com/in/gbsalermo" target="_blank" rel="noreferrer"><FiLinkedin /> LinkedIn <FiArrowUpRight /></a>
             <a href="https://github.com/gbsalermo" target="_blank" rel="noreferrer"><FiGithub /> GitHub <FiArrowUpRight /></a>
