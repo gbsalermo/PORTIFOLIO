@@ -1,15 +1,16 @@
 # Gabriel Salermo — Portfólio
 
-Portfólio pessoal desenvolvido em **React + TypeScript + Vite**, com foco em apresentar projetos, stack e experiência de forma objetiva para recrutadores, clientes e parceiros.
+Portfólio pessoal desenvolvido em **React + TypeScript + Vite**, com foco em apresentar projetos, experiência e stack de forma clara para recrutadores, clientes e parceiros.
 
-## Conceito visual
+## Direção visual
 
-- interface dark / high-contrast;
-- vermelho fechado como cor de destaque;
-- tipografia grande e direta;
-- projetos como elemento central da narrativa;
-- layout responsivo e mobile-first;
-- imagem pixel art usada como visual provisório do hero até a inclusão da foto de perfil definitiva.
+- interface dark com destaque em vermelho;
+- transições suaves e navegação por seções;
+- layout responsivo;
+- versão **Português / English**;
+- projetos principais apresentados como pequenos estudos de caso;
+- habilidades com barras de confiança prática;
+- currículo em português e inglês.
 
 ## Projetos destacados
 
@@ -19,6 +20,11 @@ Portfólio pessoal desenvolvido em **React + TypeScript + Vite**, com foco em ap
 - **PIPETA**
 - **Library Manager**
 - **Landing Page Audiovisual**
+
+## Currículos
+
+- `public/CurriculoSalermo.pdf`
+- `public/GabrielSalermo_Resume.pdf`
 
 ## Rodar localmente
 
@@ -33,13 +39,10 @@ Build de produção:
 npm run build
 ```
 
+## Fluxo do projeto
+
+Por ser um projeto pessoal simples, as próximas evoluções serão feitas **diretamente na branch `main`**.
+
 ## Deploy
 
-O repositório inclui workflow para **GitHub Pages** em `.github/workflows/deploy.yml`.
-
-## Próximos ajustes
-
-- substituir o visual provisório pela foto de perfil definitiva;
-- adicionar currículo em PDF;
-- incluir links de demonstração dos projetos que possuírem deploy público;
-- refinar textos de experiência conforme currículo/LinkedIn final.
+O repositório possui workflow para publicação no **GitHub Pages**.
