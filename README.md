@@ -5,20 +5,24 @@ Portfólio pessoal desenvolvido em **React + TypeScript + Vite**, com foco em ap
 ## Direção visual
 
 - interface dark com destaque em vermelho;
-- transições suaves e navegação por seções;
+- transições leves e navegação fluida por seções;
 - layout responsivo;
 - versão **Português / English**;
 - projetos principais apresentados como pequenos estudos de caso;
 - habilidades com barras de confiança prática;
-- currículo em português e inglês.
+- currículo em português e inglês;
+- efeitos e previews otimizados para manter a página leve.
 
-## Projetos destacados
+## Projetos principais
 
 - **SGL — Sistema de Gestão de Laboratórios**
 - **BUSIVS**
+- **RASCOMP — Plataforma de Gestão de Competições de Robótica**
+
+## Outros projetos
+
 - **Butler**
 - **PIPETA**
-- **Library Manager**
 - **Landing Page Audiovisual**
 
 ## Currículos
