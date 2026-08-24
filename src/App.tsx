@@ -48,7 +48,9 @@ const copy = {
     projectsLabel: '02 / Projetos',
     projectsTitle: 'Projetos que mostram o trabalho.',
     projectsText:
-      'Os principais aparecem como pequenos estudos de caso. Os demais mostram amplitude sem tirar o foco do backend.',
+      'Primeiro, uma leitura rápida do que cada sistema resolve. Depois, os estudos de caso mostram arquitetura, decisões e resultados.',
+    projectsOverview: 'Visão rápida',
+    projectsOverviewHint: 'Entenda os principais projetos em poucos segundos',
     challenge: 'Problema',
     solution: 'Solução',
     result: 'Resultado',
@@ -105,7 +107,9 @@ const copy = {
     projectsLabel: '02 / Projects',
     projectsTitle: 'Projects that show the work.',
     projectsText:
-      'The main projects are presented as short case studies. The others show range without taking the focus away from backend.',
+      'Start with a quick read of what each system solves. Then the case studies show architecture, decisions and outcomes.',
+    projectsOverview: 'Quick view',
+    projectsOverviewHint: 'Understand the main projects in a few seconds',
     challenge: 'Problem',
     solution: 'Solution',
     result: 'Result',
@@ -135,6 +139,21 @@ const copy = {
     busivsUser: 'Where is the bus?',
     busivsAction1: '📍 Confirm location',
     busivsAction2: '⏰ Next schedules',
+  },
+} as const
+
+const projectQuickInfo = {
+  'SGL — Sistema de Gestão de Laboratórios': {
+    pt: { type: 'Gestão de laboratórios', focus: 'Estoque · Lotes · Pedidos · FEFO/FIFO' },
+    en: { type: 'Laboratory management', focus: 'Inventory · Batches · Requests · FEFO/FIFO' },
+  },
+  BUSIVS: {
+    pt: { type: 'Mobilidade universitária', focus: 'Telegram · Rotas · Confirmações · Produção' },
+    en: { type: 'Campus mobility', focus: 'Telegram · Routes · Confirmations · Production' },
+  },
+  RASCOMP: {
+    pt: { type: 'Competições de robótica', focus: 'Equipes · Categorias · Rankings · Resultados' },
+    en: { type: 'Robotics competitions', focus: 'Teams · Categories · Rankings · Results' },
   },
 } as const
 
@@ -322,9 +341,38 @@ function App() {
             <p>{c.projectsText}</p>
           </div>
 
+          <div className="project-overview-heading scroll-reveal">
+            <strong>{c.projectsOverview}</strong>
+            <span>{c.projectsOverviewHint}</span>
+          </div>
+
+          <div className="project-overview scroll-reveal">
+            {featuredProjects.map((project, index) => {
+              const quick = projectQuickInfo[project.title as keyof typeof projectQuickInfo]?.[language]
+              return (
+                <a className="project-overview-card" key={project.title} href={`#project-${index + 1}`}>
+                  <div className="project-overview-visual">
+                    {project.preview ? (
+                      <img src={project.preview} alt="" loading="lazy" />
+                    ) : (
+                      <div className="project-overview-placeholder"><span>🚌</span><strong>BUSIVS</strong></div>
+                    )}
+                    <span className="overview-index">{String(index + 1).padStart(2, '0')}</span>
+                  </div>
+                  <div className="project-overview-copy">
+                    <div className="overview-meta"><span>{quick?.type}</span><span>{text(project.status, language)}</span></div>
+                    <h3>{project.title}</h3>
+                    <p>{quick?.focus}</p>
+                    <div className="overview-stack">{project.stack.slice(0, 3).map((item) => <span key={item}>{item}</span>)}</div>
+                  </div>
+                </a>
+              )
+            })}
+          </div>
+
           <div className="case-studies">
             {featuredProjects.map((project, index) => (
-              <article className="case-study scroll-reveal" key={project.title}>
+              <article id={`project-${index + 1}`} className="case-study scroll-reveal" key={project.title}>
                 <div className="case-visual">
                   {project.preview ? (
                     <img
