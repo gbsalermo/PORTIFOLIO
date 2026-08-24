@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Butler</title>
+  <desc id="desc">Visual abstrato de assistente pessoal em terminal.</desc>
+  <rect width="1000" height="620" fill="#0b0b0d"/>
+  <g stroke="#202026" stroke-width="1" opacity=".7">
+    <path d="M0 103h1000M0 206h1000M0 309h1000M0 412h1000M0 515h1000"/>
+    <path d="M125 0v620M250 0v620M375 0v620M500 0v620M625 0v620M750 0v620M875 0v620"/>
+  </g>
+  <rect x="90" y="82" width="820" height="456" rx="28" fill="#101012" stroke="#2a2a30"/>
+  <circle cx="130" cy="122" r="8" fill="#b91c1c"/>
+  <circle cx="158" cy="122" r="8" fill="#34343a"/>
+  <circle cx="186" cy="122" r="8" fill="#34343a"/>
+  <text x="218" y="128" fill="#666670" font-family="ui-monospace,monospace" font-size="18">butler/core</text>
+  <g transform="translate(150 212)" font-family="ui-monospace,monospace">
+    <text x="0" y="0" fill="#e23b3b" font-size="22">&gt;</text>
+    <text x="38" y="0" fill="#d8d8dd" font-size="22">organizar hoje</text>
+    <text x="0" y="62" fill="#686872" font-size="18">tarefas · agenda · estudos · memória</text>
+    <rect x="0" y="112" width="560" height="70" rx="14" fill="#151518" stroke="#2b2b31"/>
+    <text x="24" y="155" fill="#a7a7ae" font-size="18">core determinístico → ação confirmada</text>
+  </g>
+  <g transform="translate(736 330)">
+    <circle cx="0" cy="0" r="72" fill="#151518" stroke="#303038"/>
+    <rect x="-38" y="-25" width="76" height="54" rx="16" fill="#222229"/>
+    <circle cx="-17" cy="0" r="7" fill="#e23b3b"/>
+    <circle cx="17" cy="0" r="7" fill="#e23b3b"/>
+    <path d="M-22 38h44" stroke="#5d5d67" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="150" y="494" fill="#f3f3f5" font-family="Arial,Helvetica,sans-serif" font-size="48" font-weight="800">BUTLER</text>
+</svg>
