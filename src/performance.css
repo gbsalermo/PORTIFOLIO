@@ -83,7 +83,6 @@ body::after {
   min-height: 520px;
 }
 
-/* Architecture previews are intentionally large: they are the visual demo of backend work. */
 .case-visual > img.contain {
   padding: 18px;
 }
@@ -112,6 +111,203 @@ body::after {
 .skill-bars {
   content-visibility: auto;
   contain-intrinsic-size: auto 420px;
+}
+
+/* Stronger visual hierarchy between portfolio sections */
+main > section[id] {
+  position: relative;
+  border-top: 1px solid #34343b !important;
+}
+
+main > section[id]::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 112px;
+  height: 2px;
+  background: linear-gradient(90deg, #b91c1c, rgba(185, 28, 28, 0));
+  pointer-events: none;
+}
+
+.projects-section,
+.skills-section {
+  background: linear-gradient(180deg, rgba(255,255,255,.018), transparent 220px);
+}
+
+.experience-section,
+.contact-section {
+  background: linear-gradient(180deg, rgba(185,28,28,.025), transparent 220px);
+}
+
+.section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #9a9aa3 !important;
+  font-size: 12px !important;
+  letter-spacing: .18em !important;
+}
+
+.section-label::before {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: #b91c1c;
+  flex: 0 0 auto;
+}
+
+/* Quick project scan */
+.project-overview-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 4px 0 16px;
+  padding-top: 12px;
+}
+
+.project-overview-heading strong {
+  font: 600 20px 'Space Grotesk', sans-serif;
+  letter-spacing: -.02em;
+}
+
+.project-overview-heading span {
+  color: #71717a;
+  font-size: 12px;
+}
+
+.project-overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 52px;
+}
+
+.project-overview-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid #2c2c32;
+  border-radius: 18px;
+  background: #0d0d10;
+  transition: transform .18s ease, border-color .18s ease, background .18s ease;
+}
+
+.project-overview-card:hover {
+  transform: translateY(-3px);
+  border-color: #55555e;
+  background: #101013;
+}
+
+.project-overview-visual {
+  height: 170px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid #25252a;
+  background:
+    radial-gradient(circle at 50% 45%, rgba(185,28,28,.08), transparent 58%),
+    #0a0a0c;
+}
+
+.project-overview-visual img {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  object-fit: contain;
+}
+
+.project-overview-placeholder {
+  display: grid;
+  place-items: center;
+  gap: 7px;
+  color: #d7d7dc;
+}
+
+.project-overview-placeholder span { font-size: 34px; }
+.project-overview-placeholder strong { font: 700 20px 'Space Grotesk', sans-serif; letter-spacing: .08em; }
+
+.overview-index {
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  padding: 5px 7px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 7px;
+  background: rgba(8,8,9,.82);
+  color: #8b8b94;
+  font: 600 9px 'Space Grotesk', sans-serif;
+  letter-spacing: .12em;
+}
+
+.project-overview-copy {
+  padding: 18px 18px 20px;
+}
+
+.overview-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #6f6f78;
+  font-size: 9px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: .11em;
+}
+
+.overview-meta span:last-child { color: #a45656; text-align: right; }
+
+.project-overview-copy h3 {
+  margin: 22px 0 9px;
+  font: 700 23px/1.08 'Space Grotesk', sans-serif;
+  letter-spacing: -.035em;
+}
+
+.project-overview-copy p {
+  min-height: 38px;
+  margin: 0;
+  color: #92929b;
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.overview-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.overview-stack span {
+  padding: 5px 7px;
+  border: 1px solid #28282d;
+  border-radius: 999px;
+  color: #777780;
+  background: #0a0a0c;
+  font-size: 9px;
+}
+
+.case-studies {
+  position: relative;
+  padding-top: 34px;
+  border-top: 1px solid #27272d;
+}
+
+.case-studies::before {
+  content: 'CASE STUDIES';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  padding-right: 12px;
+  background: #080809;
+  color: #585861;
+  font: 600 9px 'Space Grotesk', sans-serif;
+  letter-spacing: .16em;
+}
+
+.case-study {
+  scroll-margin-top: 98px;
 }
 
 @media (max-width: 920px) {
@@ -148,6 +344,10 @@ body::after {
   .contact-section > * {
     min-width: 0;
   }
+
+  .project-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 680px) {
@@ -159,8 +359,20 @@ body::after {
   }
 
   .section-pad {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 76px;
+    padding-bottom: 76px;
+  }
+
+  main > section[id]::after {
+    width: 74px;
+  }
+
+  .section-label {
+    font-size: 10px !important;
+  }
+
+  .section-label::before {
+    width: 20px;
   }
 
   .mobile-nav {
@@ -227,6 +439,57 @@ body::after {
   .code-card pre {
     overflow-x: auto;
     max-width: 100%;
+  }
+
+  .project-overview-heading {
+    display: grid;
+    gap: 5px;
+  }
+
+  .project-overview {
+    grid-template-columns: 1fr;
+    margin-bottom: 42px;
+  }
+
+  .project-overview-card {
+    display: grid;
+    grid-template-columns: 116px minmax(0, 1fr);
+  }
+
+  .project-overview-visual {
+    height: auto;
+    min-height: 154px;
+    border-right: 1px solid #25252a;
+    border-bottom: 0;
+  }
+
+  .project-overview-visual img {
+    padding: 4px;
+  }
+
+  .project-overview-copy {
+    padding: 15px;
+  }
+
+  .overview-meta {
+    display: grid;
+    gap: 4px;
+  }
+
+  .overview-meta span:last-child { text-align: left; }
+
+  .project-overview-copy h3 {
+    margin: 13px 0 6px;
+    font-size: 19px;
+  }
+
+  .project-overview-copy p {
+    min-height: 0;
+    font-size: 11px;
+  }
+
+  .overview-stack {
+    margin-top: 11px;
   }
 
   .case-study {
@@ -343,6 +606,18 @@ body::after {
   .visual-frame,
   .visual-frame img {
     min-height: 400px;
+  }
+
+  .project-overview-card {
+    grid-template-columns: 98px minmax(0, 1fr);
+  }
+
+  .project-overview-copy h3 {
+    font-size: 17px;
+  }
+
+  .overview-stack span:nth-child(n+3) {
+    display: none;
   }
 
   .case-visual,
