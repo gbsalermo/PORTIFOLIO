@@ -1,0 +1,111 @@
+%PDF-1.4
+%%%%%
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2963 >>
+stream
+BT /F2 17 Tf 50 800 Td (ENZO GABRIEL DE JESUS SALERMO) Tj ET
+BT /F1 10 Tf 50 780 Td (Estudante de Engenharia da Computa\347\343o | Desenvolvedor Backend) Tj ET
+BT /F1 9 Tf 50 762 Td (LinkedIn: @GabrielSalermo | 75 99978-0174) Tj ET
+BT /F1 9 Tf 50 748 Td (E-mail: salermojgabriel@gmail.com | GitHub: @gbsalermo) Tj ET
+BT /F2 11 Tf 50 720 Td (RESUMO E OBJETIVO) Tj ET
+BT /F1 9.5 Tf 50 702 Td (Estudante de Engenharia da Computa\347\343o na UFRB, com interesse em desenvolvimento Backend) Tj ET
+BT /F1 9.5 Tf 50 689 Td (Java. Experi\352ncia na constru\347\343o de APIs REST utilizando Spring Boot, JPA e MySQL, al\351m de) Tj ET
+BT /F1 9.5 Tf 50 676 Td (atua\347\343o em projetos com automa\347\343o e arquitetura de microservi\347os. Busco uma oportunidade) Tj ET
+BT /F1 9.5 Tf 50 663 Td (para aplicar boas pr\341ticas, evoluir tecnicamente e contribuir com solu\347\365es eficientes e bem) Tj ET
+BT /F1 9.5 Tf 50 650 Td (estruturadas.) Tj ET
+BT /F2 11 Tf 50 629 Td (FORMA\307\303O ACAD\312MICA) Tj ET
+BT /F2 10 Tf 50 611 Td (ENGENHARIA DA COMPUTA\307\303O \(2022 - atual\)) Tj ET
+BT /F1 9.5 Tf 50 596 Td (UNIVERSIDADE FEDERAL DO REC\324NCAVO DA BAHIA - UFRB) Tj ET
+BT /F1 9.5 Tf 50 581 Td (Previs\343o de conclus\343o: 2028) Tj ET
+BT /F2 11 Tf 50 557 Td (EXPERI\312NCIA PROFISSIONAL) Tj ET
+BT /F2 9.5 Tf 50 539 Td (Suporte t\351cnico em redes - Conect Telecom \(2019 - 2022\)) Tj ET
+BT /F1 9 Tf 60 525 Td (- Monitoramento e diagn\363stico de falhas em infraestrutura de rede) Tj ET
+BT /F1 9 Tf 60 513 Td (- Configura\347\343o de switches, roteadores e firewalls) Tj ET
+BT /F1 9 Tf 60 501 Td (- Atendimento t\351cnico e resolu\347\343o de problemas de conectividade) Tj ET
+BT /F1 9 Tf 60 489 Td (- Suporte a usu\341rios e manuten\347\343o de estabilidade de servi\347os) Tj ET
+BT /F2 9.5 Tf 50 471 Td (Ministrante do curso de introdu\347\343o a Arduino e projetos embarcados - UFRB \(2024\)) Tj ET
+BT /F1 9 Tf 60 457 Td (- Ensino de fundamentos de eletr\364nica e sistemas embarcados.) Tj ET
+BT /F1 9 Tf 60 445 Td (- Discuss\343o referente a seguran\347a e precau\347\365es em laborat\363rios de eletr\364nica.) Tj ET
+BT /F2 9.5 Tf 50 427 Td (Diretoria do cap\355tulo RAS-IEEE - UFRB \(2024-2025\)) Tj ET
+BT /F1 9 Tf 60 413 Td (- Vice-presidente do Cap\355tulo Estudantil RAS-IEEE UFRB: atua\347\343o na organiza\347\343o de) Tj ET
+BT /F1 9 Tf 60 401 Td (atividades, projetos e eventos t\351cnicos de rob\363tica e automa\347\343o, voltados \340 comunidade e) Tj ET
+BT /F1 9 Tf 60 389 Td (ao ambiente acad\352mico.) Tj ET
+BT /F2 9.5 Tf 50 371 Td (Pesquisador no projeto PIPETA de Irriga\347\343o aut\364noma - UFRB \(2024 - 2025\)) Tj ET
+BT /F1 9 Tf 60 357 Td (- Inicia\347\343o cient\355fica em CNPq focada no desenvolvimento de um rob\364 aut\364nomo para) Tj ET
+BT /F1 9 Tf 60 345 Td (irriga\347\343o e monitoramento de umidade do solo.) Tj ET
+BT /F1 9 Tf 60 333 Td (- Desenvolvimento de resumos e apresenta\347\343o do projeto no evento Reconcitec UFRB.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2456 >>
+stream
+BT /F2 17 Tf 50 800 Td (ENZO GABRIEL DE JESUS SALERMO) Tj ET
+BT /F2 11 Tf 50 770 Td (TECNOLOGIAS) Tj ET
+BT /F1 9.5 Tf 50 752 Td (Linguagens: Java, JavaScript, TypeScript, Python) Tj ET
+BT /F1 9.5 Tf 50 738 Td (Backend: Spring Boot, JPA, JDBC, APIs REST) Tj ET
+BT /F1 9.5 Tf 50 724 Td (Banco de Dados: MySQL, MongoDB) Tj ET
+BT /F1 9.5 Tf 50 710 Td (Ferramentas: Git, GitHub, Maven, Postman) Tj ET
+BT /F1 9.5 Tf 50 696 Td (Frontend: HTML, CSS) Tj ET
+BT /F1 9.5 Tf 50 682 Td (Desktop: JavaFX) Tj ET
+BT /F2 11 Tf 50 658 Td (CURSOS) Tj ET
+BT /F1 9.2 Tf 60 640 Td (- Java completo Programa\347\343o Orientada a Objetos | Udemy \(2025\)) Tj ET
+BT /F1 9.2 Tf 60 627 Td (- Ingl\352s Extremo | Udemy \(2026\)) Tj ET
+BT /F1 9.2 Tf 60 614 Td (- Oficina de rob\363tica e automa\347\343o | UFRB \(2024\)) Tj ET
+BT /F1 9.2 Tf 60 601 Td (- Intera\347\365es Cotidianas em l\355ngua inglesa | UFRB \(2024\)) Tj ET
+BT /F2 11 Tf 50 578 Td (PROJETOS PROFISSIONAIS/PESSOAIS) Tj ET
+BT /F2 9.5 Tf 50 560 Td (Mini E-commerce \(Java | Spring Boot | MySQL\)) Tj ET
+BT /F1 9 Tf 60 546 Td (- API REST com arquitetura em camadas \(Controller, Service, Repository\)) Tj ET
+BT /F1 9 Tf 60 534 Td (- Mapeamento objeto-relacional com JPA/Hibernate) Tj ET
+BT /F1 9 Tf 60 522 Td (- Modelagem de usu\341rios, pedidos, produtos e pagamentos) Tj ET
+BT /F1 9 Tf 60 510 Td (- Testes de endpoints com Postman) Tj ET
+BT /F2 9.5 Tf 50 493 Td (Projeto JDBC \(Java | MySQL\)) Tj ET
+BT /F1 9 Tf 60 479 Td (- Integra\347\343o com banco relacional utilizando JDBC puro) Tj ET
+BT /F1 9 Tf 60 467 Td (- Implementa\347\343o manual do padr\343o DAO) Tj ET
+BT /F1 9 Tf 60 455 Td (- Escrita de SQL para opera\347\365es CRUD) Tj ET
+BT /F2 9.5 Tf 50 438 Td (Projeto Lire - Personal Reading Tracker \(Java\)) Tj ET
+BT /F1 9 Tf 60 424 Td (- Aplica\347\343o em Java para controle de leituras) Tj ET
+BT /F1 9 Tf 60 412 Td (- Programa\347\343o Orientada a Objetos) Tj ET
+BT /F1 9 Tf 60 400 Td (- Arquitetura b\341sica em camadas) Tj ET
+BT /F2 9.5 Tf 50 383 Td (Projeto Sistema Financeiro \(Java\)) Tj ET
+BT /F1 9 Tf 60 369 Td (- Simula\347\343o de opera\347\365es financeiras aplicando conceitos de POO) Tj ET
+BT /F2 9.5 Tf 50 352 Td (Projeto Hotel Salermo \(Python\)) Tj ET
+BT /F1 9 Tf 60 338 Td (- Sistema b\341sico de hotelaria aplicando conceitos de POO) Tj ET
+BT /F2 11 Tf 50 316 Td (IDIOMAS) Tj ET
+BT /F1 9.5 Tf 60 298 Td (- Ingl\352s Intermedi\341rio) Tj ET
+BT /F1 9.5 Tf 60 284 Td (- Espanhol b\341sico) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000112 00000 n 
+0000000214 00000 n 
+0000000277 00000 n 
+0000000326 00000 n 
+0000000462 00000 n 
+0000003476 00000 n 
+0000003612 00000 n 
+trailer
+<< /Size 9 /Root 4 0 R >>
+startxref
+6119
+%%EOF
