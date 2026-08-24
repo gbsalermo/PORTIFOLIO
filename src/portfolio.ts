@@ -158,12 +158,12 @@ export const projects: Project[] = [
 ]
 
 export const skills = [
-  { name: 'Java', level: 88 },
-  { name: 'Python', level: 65 },
-  { name: 'JavaScript', level: 55 },
-  { name: 'TypeScript', level: 63 },
-  { name: 'SQL', level: 75 },
-  { name: 'HTML / CSS', level: 72 },
+  { name: 'Java', level: 90 },
+  { name: 'Python', level: 70 },
+  { name: 'JavaScript', level: 60 },
+  { name: 'TypeScript', level: 60 },
+  { name: 'SQL', level: 80 },
+  { name: 'HTML / CSS', level: 70 },
 ]
 
 export const stackGroups = [
