@@ -1,88 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 980" role="img" aria-labelledby="title desc">
   <title id="title">Arquitetura do SGL</title>
-  <desc id="desc">Fluxo da API REST do SGL, das requisições até PostgreSQL, com regras FEFO/FIFO e domínio de laboratórios, pedidos, produtos e lotes.</desc>
+  <desc id="desc">Arquitetura em camadas e fluxo de estoque do SGL, com REST, services, JPA, PostgreSQL, FEFO/FIFO e auditoria.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0a0a0c"/>
-      <stop offset="1" stop-color="#111116"/>
+      <stop offset="0" stop-color="#09090b"/><stop offset="1" stop-color="#121217"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity=".32"/>
-    </filter>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
-      <path d="M0 0L8 4L0 8Z" fill="#b91c1c"/>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5L0 9Z" fill="#b91c1c"/>
     </marker>
   </defs>
 
-  <rect width="1200" height="720" rx="34" fill="url(#bg)"/>
-  <rect x="1" y="1" width="1198" height="718" rx="33" fill="none" stroke="#27272d"/>
+  <rect width="820" height="980" rx="34" fill="url(#bg)"/>
+  <rect x="1" y="1" width="818" height="978" rx="33" fill="none" stroke="#29292f"/>
 
-  <text x="64" y="74" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">SGL / SYSTEM ARCHITECTURE</text>
-  <text x="64" y="106" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="15">Backend modelado para estoque rastreável, pedidos e auditoria</text>
-  <circle cx="1118" cy="73" r="7" fill="#b91c1c"/>
-  <text x="1140" y="79" text-anchor="end" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="12">JAVA + SPRING BOOT</text>
+  <text x="52" y="66" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="700">SGL / BACKEND ARCHITECTURE</text>
+  <text x="52" y="98" fill="#7b7b84" font-family="Inter,Arial,sans-serif" font-size="15">Do contrato REST à regra de negócio e persistência</text>
+  <circle cx="748" cy="64" r="7" fill="#b91c1c"/>
 
-  <g filter="url(#shadow)">
-    <rect x="64" y="160" width="210" height="100" rx="18" fill="#131318" stroke="#303038"/>
-    <text x="86" y="195" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">HTTP / REST</text>
-    <text x="86" y="222" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Requests + DTOs</text>
-    <text x="86" y="244" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Bean Validation</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="70" y="142" width="680" height="82" rx="18" fill="#131318" stroke="#34343b"/>
+    <text x="96" y="175" fill="#f4f4f5" font-size="18" font-weight="700">HTTP / REST + DTOs</text>
+    <text x="96" y="201" fill="#92929b" font-size="14">Requests · Responses · Bean Validation · OpenAPI</text>
 
-    <rect x="348" y="160" width="220" height="100" rx="18" fill="#131318" stroke="#303038"/>
-    <text x="370" y="195" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">CONTROLLERS</text>
-    <text x="370" y="222" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">OpenAPI / HTTP</text>
-    <text x="370" y="244" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Contratos de entrada/saída</text>
+    <path d="M410 224V250" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#arrow)"/>
 
-    <rect x="642" y="146" width="262" height="128" rx="18" fill="#161315" stroke="#7f1d1d" stroke-width="1.5"/>
-    <text x="666" y="184" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">SERVICES / DOMAIN</text>
-    <text x="666" y="214" fill="#ef4444" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">FEFO / FIFO</text>
-    <text x="666" y="238" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="13">Pedidos · Transações · Auditoria</text>
-    <text x="666" y="260" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="13">Reserva · Baixa · Estorno</text>
+    <rect x="70" y="262" width="680" height="82" rx="18" fill="#131318" stroke="#34343b"/>
+    <text x="96" y="295" fill="#f4f4f5" font-size="18" font-weight="700">CONTROLLERS</text>
+    <text x="96" y="321" fill="#92929b" font-size="14">Endpoints · status HTTP · contratos de entrada e saída</text>
 
-    <rect x="978" y="160" width="158" height="100" rx="18" fill="#131318" stroke="#303038"/>
-    <text x="1000" y="195" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">JPA</text>
-    <text x="1000" y="222" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Repositories</text>
-    <text x="1000" y="244" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Hibernate</text>
+    <path d="M410 344V370" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="70" y="382" width="680" height="112" rx="18" fill="#171315" stroke="#7f1d1d" stroke-width="1.5"/>
+    <text x="96" y="417" fill="#f4f4f5" font-size="19" font-weight="700">SERVICES / DOMAIN</text>
+    <text x="96" y="447" fill="#ef4444" font-size="14" font-weight="700">FEFO / FIFO · Pedidos · Transações · Auditoria</text>
+    <text x="96" y="474" fill="#a6a6ae" font-size="14">Reserva · baixa · entrega · cancelamento · estorno</text>
+
+    <path d="M410 494V520" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="70" y="532" width="318" height="92" rx="18" fill="#111116" stroke="#34343b"/>
+    <text x="94" y="568" fill="#f4f4f5" font-size="18" font-weight="700">JPA / HIBERNATE</text>
+    <text x="94" y="596" fill="#92929b" font-size="14">Repositories + entidades</text>
+
+    <rect x="432" y="532" width="318" height="92" rx="18" fill="#111116" stroke="#34343b"/>
+    <text x="456" y="568" fill="#f4f4f5" font-size="18" font-weight="700">POSTGRESQL</text>
+    <text x="456" y="596" fill="#92929b" font-size="14">Schema versionado · Flyway</text>
+
+    <path d="M388 578H420" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <text x="70" y="684" fill="#f4f4f5" font-size="18" font-weight="700">BUSINESS FLOW</text>
+
+    <rect x="70" y="710" width="145" height="62" rx="14" fill="#131318" stroke="#34343b"/>
+    <text x="142" y="748" text-anchor="middle" fill="#d4d4d8" font-size="14" font-weight="700">PEDIDO</text>
+
+    <path d="M215 741H250" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="262" y="710" width="145" height="62" rx="14" fill="#131318" stroke="#34343b"/>
+    <text x="334" y="738" text-anchor="middle" fill="#d4d4d8" font-size="13" font-weight="700">VALIDA</text>
+    <text x="334" y="758" text-anchor="middle" fill="#8f8f98" font-size="12">estoque</text>
+
+    <path d="M407 741H442" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="454" y="710" width="145" height="62" rx="14" fill="#171315" stroke="#7f1d1d"/>
+    <text x="526" y="738" text-anchor="middle" fill="#fca5a5" font-size="13" font-weight="700">FEFO / FIFO</text>
+    <text x="526" y="758" text-anchor="middle" fill="#8f8f98" font-size="12">seleciona lotes</text>
+
+    <path d="M599 741H634" stroke="#b91c1c" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+    <rect x="646" y="710" width="104" height="62" rx="14" fill="#131318" stroke="#34343b"/>
+    <text x="698" y="738" text-anchor="middle" fill="#d4d4d8" font-size="13" font-weight="700">BAIXA</text>
+    <text x="698" y="758" text-anchor="middle" fill="#8f8f98" font-size="12">auditada</text>
+
+    <rect x="70" y="812" width="680" height="96" rx="18" fill="#101014" stroke="#2c2c33"/>
+    <text x="96" y="846" fill="#f4f4f5" font-size="16" font-weight="700">DOMÍNIO MODELADO</text>
+    <text x="96" y="875" fill="#a1a1aa" font-size="14">Unidade → Laboratórios → Projetos → Pedidos</text>
+    <text x="96" y="898" fill="#a1a1aa" font-size="14">Estoque → Produtos → Lotes físicos → Movimentações</text>
   </g>
 
-  <g fill="none" stroke="#b91c1c" stroke-width="2" marker-end="url(#arrow)">
-    <path d="M274 210H338"/>
-    <path d="M568 210H632"/>
-    <path d="M904 210H968"/>
-  </g>
-
-  <g filter="url(#shadow)">
-    <rect x="64" y="352" width="254" height="232" rx="20" fill="#101014" stroke="#282830"/>
-    <text x="88" y="389" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">DOMAIN MODEL</text>
-    <text x="88" y="427" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="13">Unidade</text>
-    <text x="111" y="457" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="13">↳ Laboratórios</text>
-    <text x="134" y="487" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="13">↳ Projetos</text>
-    <text x="134" y="517" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="13">↳ Pedidos</text>
-    <text x="111" y="547" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="13">↳ Estoque central</text>
-
-    <rect x="366" y="352" width="376" height="232" rx="20" fill="#151214" stroke="#7f1d1d"/>
-    <text x="390" y="389" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">STOCK DECISION FLOW</text>
-    <rect x="394" y="420" width="122" height="48" rx="12" fill="#1a1a20" stroke="#33333b"/>
-    <text x="455" y="450" text-anchor="middle" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="12">Produto</text>
-    <path d="M516 444H568" stroke="#b91c1c" stroke-width="2" marker-end="url(#arrow)"/>
-    <rect x="578" y="420" width="136" height="48" rx="12" fill="#1a1a20" stroke="#33333b"/>
-    <text x="646" y="450" text-anchor="middle" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="12">Lotes físicos</text>
-    <path d="M646 468V503" stroke="#b91c1c" stroke-width="2" marker-end="url(#arrow)"/>
-    <rect x="540" y="513" width="174" height="44" rx="12" fill="#2a1114" stroke="#991b1b"/>
-    <text x="627" y="540" text-anchor="middle" fill="#fca5a5" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">FEFO / FIFO</text>
-    <text x="394" y="539" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="12">perecível → FEFO</text>
-    <text x="394" y="560" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="12">não perecível → FIFO</text>
-
-    <rect x="790" y="352" width="346" height="232" rx="20" fill="#101014" stroke="#282830"/>
-    <text x="814" y="389" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">PERSISTENCE</text>
-    <text x="814" y="427" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="14">PostgreSQL</text>
-    <text x="814" y="454" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Schema versionado com Flyway</text>
-    <text x="814" y="493" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="14">Movimentação auditável</text>
-    <text x="814" y="520" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">entrada · saída · descarte · estorno</text>
-    <text x="814" y="559" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="14">Rastreabilidade por lote</text>
-  </g>
-
-  <path d="M1057 260V323H962V342" fill="none" stroke="#3f3f46" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="64" y="660" fill="#52525b" font-family="Inter,Arial,sans-serif" font-size="12">MODELED FROM DOMAIN → API CONTRACTS → BUSINESS RULES → DATA</text>
-  <text x="1136" y="660" text-anchor="end" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="12">BACKEND COMPLETE</text>
+  <text x="52" y="950" fill="#5f5f67" font-family="Inter,Arial,sans-serif" font-size="12">MODELED FROM DOMAIN → BUSINESS RULES → API → DATA</text>
+  <text x="768" y="950" text-anchor="end" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="12">BACKEND COMPLETE</text>
 </svg>
