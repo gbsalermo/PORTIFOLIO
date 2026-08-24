@@ -1,109 +1,337 @@
 %PDF-1.4
-%%%%%
+% ReportLab Generated PDF document (opensource)
 1 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 9 0 R
+>>
 endobj
 2 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
 endobj
 3 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+<<
+/BaseFont /Times-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
 endobj
 4 0 obj
-<< /Type /Catalog /Pages 3 0 R >>
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
 endobj
 5 0 obj
-<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.linkedin.com/in/gbsalermo)
+>> /Border [ 0 0 0 ] /Rect [ 245.647 737.8898 303.397 751.3898 ] /Subtype /Link /Type /Annot
+>>
 endobj
 6 0 obj
-<< /Length 2557 >>
-stream
-BT /F2 17 Tf 50 800 Td (ENZO GABRIEL DE JESUS SALERMO) Tj ET
-BT /F1 10 Tf 50 780 Td (Computer Engineering Student | Backend Developer) Tj ET
-BT /F1 9 Tf 50 762 Td (LinkedIn: @GabrielSalermo | +55 75 99978-0174) Tj ET
-BT /F1 9 Tf 50 748 Td (Email: salermojgabriel@gmail.com | GitHub: @gbsalermo) Tj ET
-BT /F2 11 Tf 50 720 Td (SUMMARY AND OBJECTIVE) Tj ET
-BT /F1 9.5 Tf 50 702 Td (Computer Engineering student at UFRB focused on Java backend development. Experience) Tj ET
-BT /F1 9.5 Tf 50 689 Td (building REST APIs with Spring Boot, JPA and MySQL, as well as projects involving automation) Tj ET
-BT /F1 9.5 Tf 50 676 Td (and microservices architecture. I am looking for an opportunity to apply good practices,) Tj ET
-BT /F1 9.5 Tf 50 663 Td (grow technically and contribute to efficient, well-structured solutions.) Tj ET
-BT /F2 11 Tf 50 642 Td (EDUCATION) Tj ET
-BT /F2 10 Tf 50 624 Td (COMPUTER ENGINEERING \(2022 - present\)) Tj ET
-BT /F1 9.5 Tf 50 609 Td (FEDERAL UNIVERSITY OF RECONCAVO DA BAHIA - UFRB) Tj ET
-BT /F1 9.5 Tf 50 594 Td (Expected graduation: 2028) Tj ET
-BT /F2 11 Tf 50 570 Td (PROFESSIONAL EXPERIENCE) Tj ET
-BT /F2 9.5 Tf 50 552 Td (Network Technical Support - Conect Telecom \(2019 - 2022\)) Tj ET
-BT /F1 9 Tf 60 538 Td (- Monitoring and diagnosis of network infrastructure failures) Tj ET
-BT /F1 9 Tf 60 526 Td (- Configuration of switches, routers and firewalls) Tj ET
-BT /F1 9 Tf 60 514 Td (- Technical support and troubleshooting of connectivity issues) Tj ET
-BT /F1 9 Tf 60 502 Td (- User support and service stability maintenance) Tj ET
-BT /F2 9.5 Tf 50 484 Td (Instructor - Introduction to Arduino and Embedded Projects - UFRB \(2024\)) Tj ET
-BT /F1 9 Tf 60 470 Td (- Teaching fundamentals of electronics and embedded systems.) Tj ET
-BT /F1 9 Tf 60 458 Td (- Discussion of safety and precautions in electronics laboratories.) Tj ET
-BT /F2 9.5 Tf 50 440 Td (RAS-IEEE Chapter Board - UFRB \(2024-2025\)) Tj ET
-BT /F1 9 Tf 60 426 Td (- Vice-president of the RAS-IEEE UFRB Student Chapter, organizing activities, projects) Tj ET
-BT /F1 9 Tf 60 414 Td (and technical events in robotics and automation for the academic community.) Tj ET
-BT /F2 9.5 Tf 50 396 Td (Researcher - PIPETA Autonomous Irrigation Project - UFRB \(2024 - 2025\)) Tj ET
-BT /F1 9 Tf 60 382 Td (- CNPq undergraduate research focused on the development of an autonomous robot for) Tj ET
-BT /F1 9 Tf 60 370 Td (irrigation and soil-moisture monitoring.) Tj ET
-BT /F1 9 Tf 60 358 Td (- Preparation of abstracts and presentation of the project at Reconcitec UFRB.) Tj ET
-endstream
+<<
+/A <<
+/S /URI /Type /Action /URI (mailto:salermojgabriel@gmail.com)
+>> /Border [ 0 0 0 ] /Rect [ 205.9885 722.8898 325.6045 736.3898 ] /Subtype /Link /Type /Annot
+>>
 endobj
 7 0 obj
-<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+<<
+/A <<
+/S /URI /Type /Action /URI (https://github.com/gbsalermo)
+>> /Border [ 0 0 0 ] /Rect [ 369.9985 722.8898 423.412 736.3898 ] /Subtype /Link /Type /Annot
+>>
 endobj
 8 0 obj
-<< /Length 2285 >>
+<<
+/Annots [ 5 0 R 6 0 R 7 0 R ] /Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 13 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 15 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 13 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/PageMode /UseNone /Pages 13 0 R /Type /Catalog
+>>
+endobj
+12 0 obj
+<<
+/Author (ENZO GABRIEL DE JESUS SALERMO) /CreationDate (D:20260824023239+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20260824023239+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (ENZO GABRIEL DE JESUS SALERMO) /Trapped /False
+>>
+endobj
+13 0 obj
+<<
+/Count 2 /Kids [ 8 0 R 10 0 R ] /Type /Pages
+>>
+endobj
+14 0 obj
+<<
+/Length 5652
+>>
 stream
-BT /F2 17 Tf 50 800 Td (ENZO GABRIEL DE JESUS SALERMO) Tj ET
-BT /F2 11 Tf 50 770 Td (TECHNOLOGIES) Tj ET
-BT /F1 9.5 Tf 50 752 Td (Languages: Java, JavaScript, TypeScript, Python) Tj ET
-BT /F1 9.5 Tf 50 738 Td (Backend: Spring Boot, JPA, JDBC, REST APIs) Tj ET
-BT /F1 9.5 Tf 50 724 Td (Databases: MySQL, MongoDB) Tj ET
-BT /F1 9.5 Tf 50 710 Td (Tools: Git, GitHub, Maven, Postman) Tj ET
-BT /F1 9.5 Tf 50 696 Td (Frontend: HTML, CSS) Tj ET
-BT /F1 9.5 Tf 50 682 Td (Desktop: JavaFX) Tj ET
-BT /F2 11 Tf 50 658 Td (COURSES) Tj ET
-BT /F1 9.2 Tf 60 640 Td (- Complete Java - Object-Oriented Programming | Udemy \(2025\)) Tj ET
-BT /F1 9.2 Tf 60 627 Td (- Extreme English | Udemy \(2026\)) Tj ET
-BT /F1 9.2 Tf 60 614 Td (- Robotics and Automation Workshop | UFRB \(2024\)) Tj ET
-BT /F1 9.2 Tf 60 601 Td (- Everyday Interactions in English | UFRB \(2024\)) Tj ET
-BT /F2 11 Tf 50 578 Td (PROFESSIONAL / PERSONAL PROJECTS) Tj ET
-BT /F2 9.5 Tf 50 560 Td (Mini E-commerce \(Java | Spring Boot | MySQL\)) Tj ET
-BT /F1 9 Tf 60 546 Td (- REST API with layered architecture \(Controller, Service, Repository\)) Tj ET
-BT /F1 9 Tf 60 534 Td (- Object-relational mapping with JPA/Hibernate) Tj ET
-BT /F1 9 Tf 60 522 Td (- Modeling users, orders, products and payments) Tj ET
-BT /F1 9 Tf 60 510 Td (- Endpoint testing with Postman) Tj ET
-BT /F2 9.5 Tf 50 493 Td (JDBC Project \(Java | MySQL\)) Tj ET
-BT /F1 9 Tf 60 479 Td (- Relational database integration using plain JDBC) Tj ET
-BT /F1 9 Tf 60 467 Td (- Manual implementation of the DAO pattern) Tj ET
-BT /F1 9 Tf 60 455 Td (- SQL for CRUD operations) Tj ET
-BT /F2 9.5 Tf 50 438 Td (Lire - Personal Reading Tracker \(Java\)) Tj ET
-BT /F1 9 Tf 60 424 Td (- Java application for reading tracking) Tj ET
-BT /F1 9 Tf 60 412 Td (- Object-Oriented Programming) Tj ET
-BT /F1 9 Tf 60 400 Td (- Basic layered architecture) Tj ET
-BT /F2 9.5 Tf 50 383 Td (Financial System Project \(Java\)) Tj ET
-BT /F1 9 Tf 60 369 Td (- Simulation of financial operations using OOP concepts) Tj ET
-BT /F2 9.5 Tf 50 352 Td (Hotel Salermo \(Python\)) Tj ET
-BT /F1 9 Tf 60 338 Td (- Basic hotel-management system using OOP concepts) Tj ET
-BT /F2 11 Tf 50 316 Td (LANGUAGES) Tj ET
-BT /F1 9.5 Tf 60 298 Td (- English: Intermediate) Tj ET
-BT /F1 9.5 Tf 60 284 Td (- Spanish: Basic) Tj ET
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 16.2 Tf 19.44 TL ET
+BT 1 0 0 1 152.7126 774.8898 Tm (ENZO GABRIEL DE JESUS SALERMO) Tj T* ET
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 136.9578 755.8898 Tm (Computer Engineering Student | Java Backend Developer) Tj T* ET
+BT /F3 10.5 Tf 12.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 201.61 739.8898 Tm (LinkedIn: ) Tj T* ET
+BT /F3 10.5 Tf 12.6 TL ET
+0 0 1 rg
+BT 1 0 0 1 245.647 739.8898 Tm (/in/gbsalermo) Tj T* ET
+0 0 1 RG
+.4 w
+n 245.647 738.8898 m 303.397 738.8898 l S
+BT /F3 10.5 Tf 12.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 303.397 739.8898 Tm ( | +55 75 99978-0174) Tj T* ET
+0 0 0 rg
+BT /F3 10.5 Tf 12.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 171.8635 724.8898 Tm (E-mail: ) Tj T* ET
+BT /F3 10.5 Tf 12.6 TL ET
+0 0 1 rg
+BT 1 0 0 1 205.9885 724.8898 Tm (salermojgabriel@gmail.com) Tj T* ET
+0 0 1 RG
+.4 w
+n 205.9885 723.8898 m 325.6045 723.8898 l S
+BT /F3 10.5 Tf 12.6 TL ET
+0 0 0 rg
+BT 1 0 0 1 325.6045 724.8898 Tm ( | GitHub: ) Tj T* ET
+BT /F3 10.5 Tf 12.6 TL ET
+0 0 1 rg
+BT 1 0 0 1 369.9985 724.8898 Tm (@gbsalermo) Tj T* ET
+0 0 1 RG
+.4 w
+n 369.9985 723.8898 m 423.412 723.8898 l S
+0 0 0 rg
+.686275 .686275 .686275 RG
+.75 w
+n 70 702.8898 m 525.2756 702.8898 l S
+0 0 0 RG
+BT /F2 12.7 Tf 15.24 TL ET
+BT 1 0 0 1 70 684.8898 Tm (SUMMARY AND OBJECTIVE) Tj T* ET
+BT /F3 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 666.8898 Tm (Computer Engineering student at UFRB and Java/Spring Boot development intern at Embrapa, focused on) Tj T* ET
+BT /F3 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 653.4898 Tm (backend development, REST APIs and business rules. Hands-on experience with JPA/Hibernate,) Tj T* ET
+BT /F3 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 640.0898 Tm (PostgreSQL/MySQL, OpenAPI/Swagger documentation, testing and database versioning with Flyway.) Tj T* ET
+BT /F3 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 626.6898 Tm (Additional background in robotics, automation and embedded systems. I aim to grow as a Java backend) Tj T* ET
+BT /F3 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 613.2898 Tm (developer and contribute to reliable, well-structured solutions for real-world problems.) Tj T* ET
+.686275 .686275 .686275 RG
+.75 w
+n 70 591.8898 m 525.2756 591.8898 l S
+0 0 0 RG
+BT /F2 12.7 Tf 15.24 TL ET
+BT 1 0 0 1 70 573.8898 Tm (EDUCATION) Tj T* ET
+BT /F3 10.5 Tf 12.6 TL ET
+BT 1 0 0 1 70 555.8898 Tm (B.S. IN COMPUTER ENGINEERING \(2022 - present\)) Tj T* ET
+BT /F3 10.5 Tf 12.6 TL ET
+BT 1 0 0 1 70 541.8898 Tm (FEDERAL UNIVERSITY OF RECONCAVO DA BAHIA - UFRB) Tj T* ET
+BT /F3 10.5 Tf 12.6 TL ET
+BT 1 0 0 1 70 527.8898 Tm (Expected graduation: 2028) Tj T* ET
+.686275 .686275 .686275 RG
+.75 w
+n 70 508.8898 m 525.2756 508.8898 l S
+0 0 0 RG
+BT /F2 12.7 Tf 15.24 TL ET
+BT 1 0 0 1 70 490.8898 Tm (PROFESSIONAL EXPERIENCE) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 70 472.8898 Tm (Java/Spring Boot Development Intern) Tj T* ET
+BT /F3 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 239 472.8898 Tm ( - Embrapa ) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 287.8072 472.8898 Tm (\(2026 - present\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 457.8898 Tm (-   Maintenance and evolution of Java/Spring Boot backend services and REST APIs.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 446.0898 Tm (-   PostgreSQL integration through JPA/Hibernate, validation and resolution of real system demands.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 434.2898 Tm (-   Exposure to Vue.js frontend and use of Git/GitHub, Maven and Postman in the development workflow.) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 70 417.4898 Tm (Network Technical Support) Tj T* ET
+BT /F3 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 193.6456 417.4898 Tm ( - Conect Telecom ) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 273.3616 417.4898 Tm (\(2019 - 2022\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 402.4898 Tm (-   Monitoring and diagnosis of network infrastructure failures; configuration of switches, routers and firewalls.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 390.6898 Tm (-   Technical assistance, connectivity troubleshooting and user support.) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 70 373.8898 Tm (Instructor - Introduction to Arduino and Embedded Projects) Tj T* ET
+BT /F3 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 341.2632 373.8898 Tm ( - UFRB ) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 379.6912 373.8898 Tm (\(2024\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 358.8898 Tm (-   Taught electronics fundamentals, embedded systems and laboratory safety practices.) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 70 342.0898 Tm (RAS-IEEE Student Chapter Board) Tj T* ET
+BT /F3 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 226.3016 342.0898 Tm ( - UFRB ) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 264.7296 342.0898 Tm (\(2024 - 2025\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 327.0898 Tm (-   Vice President of the RAS-IEEE UFRB Student Chapter, organizing robotics and automation activities,) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 315.2898 Tm (    projects and technical events.) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 70 298.4898 Tm (Researcher - PIPETA Autonomous Irrigation Project) Tj T* ET
+BT /F3 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 307.7128 298.4898 Tm ( - UFRB / CNPq ) Tj T* ET
+BT /F2 10.4 Tf 12.48 TL ET
+BT 1 0 0 1 379.66 298.4898 Tm (\(2024 - 2025\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 283.4898 Tm (-   Undergraduate research focused on an autonomous solution for irrigation and soil-moisture monitoring.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 78 271.6898 Tm (-   Technical documentation, abstract writing and project presentation at Reconcitec UFRB.) Tj T* ET
+.686275 .686275 .686275 RG
+.75 w
+n 70 254.8898 m 525.2756 254.8898 l S
+0 0 0 RG
+ 
+endstream
+endobj
+15 0 obj
+<<
+/Length 4179
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 12.7 Tf 15.24 TL ET
+BT 1 0 0 1 70 776.8898 Tm (TECHNOLOGIES) Tj T* ET
+BT /F4 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 758.8898 Tm (Languages:) Tj T* ET
+BT /F1 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 130.078 758.8898 Tm (Java, Python, JavaScript, TypeScript) Tj T* ET
+BT /F4 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 745.6898 Tm (Backend:) Tj T* ET
+BT /F1 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 118.7458 745.6898 Tm (Spring Boot, JPA/Hibernate, JDBC, REST APIs, OpenAPI/Swagger) Tj T* ET
+BT /F4 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 732.4898 Tm (Databases:) Tj T* ET
+BT /F1 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 127.2526 732.4898 Tm (PostgreSQL, MySQL) Tj T* ET
+BT /F4 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 719.2898 Tm (Tools:) Tj T* ET
+BT /F1 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 103.4356 719.2898 Tm (Git, GitHub, Maven, Postman, Flyway, GitHub Actions) Tj T* ET
+BT /F4 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 70 706.0898 Tm (Frontend:) Tj T* ET
+BT /F1 10.2 Tf 12.24 TL ET
+BT 1 0 0 1 120.4288 706.0898 Tm (HTML, CSS, React, Vue.js) Tj T* ET
+.686275 .686275 .686275 RG
+.75 w
+n 70 684.8898 m 525.2756 684.8898 l S
+0 0 0 RG
+BT /F2 12.7 Tf 15.24 TL ET
+BT 1 0 0 1 70 666.8898 Tm (COURSES) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 70 648.8898 Tm (-   Complete Java - Object-Oriented Programming | Udemy \(2025\)) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 70 635.6898 Tm (-   Ingl\352s Extremo - English Course | Udemy \(2026\)) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 70 622.4898 Tm (-   Robotics and Automation Workshop | UFRB \(2024\)) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 70 609.2898 Tm (-   Everyday Interactions in English | UFRB \(2024\)) Tj T* ET
+.686275 .686275 .686275 RG
+.75 w
+n 70 588.0898 m 525.2756 588.0898 l S
+0 0 0 RG
+BT /F2 12.7 Tf 15.24 TL ET
+BT 1 0 0 1 70 570.0898 Tm (PROFESSIONAL / PERSONAL PROJECTS) Tj T* ET
+BT /F2 10.25 Tf 12.3 TL ET
+BT 1 0 0 1 70 552.0898 Tm (SGL - Laboratory Management System \(Java | Spring Boot | PostgreSQL\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 538.6898 Tm (-   Corporate REST API for supplies, batches, requests and inventory traceability.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 526.8898 Tm (-   FEFO/FIFO rules, movement auditing, Flyway migrations and OpenAPI/Swagger documentation.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 515.0898 Tm (-   Automated tests with JUnit/Mockito and layered architecture.) Tj T* ET
+BT /F2 10.25 Tf 12.3 TL ET
+BT 1 0 0 1 70 498.2898 Tm (RASCOMP - Robotics Competition Management \(Java 21 | Spring Boot | MySQL\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 484.8898 Tm (-   API for registrations, categories and operation of Sumo and Line Follower competitions.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 473.0898 Tm (-   Inspection, ranking, bracket, round and automatic-result workflows with separated domain rules.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 461.2898 Tm (-   Backend validated with manual/automated tests, Flyway and GitHub Actions.) Tj T* ET
+BT /F2 10.25 Tf 12.3 TL ET
+BT 1 0 0 1 70 444.4898 Tm (BUSIVS \(Python | Telegram | Cloudflare\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 431.0898 Tm (-   Collaborative bot for checking UFRB shuttle location and schedules.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 419.2898 Tm (-   Route and operational-window modeling, webhook integration and persistent state with low operating cost.) Tj T* ET
+BT /F2 10.25 Tf 12.3 TL ET
+BT 1 0 0 1 70 402.4898 Tm (PIPETA - Autonomous Irrigation \(ESP32/ESP8266 | Arduino | IoT\)) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 389.0898 Tm (-   Academic automation project using moisture sensors, microcontrollers and irrigation actuation.) Tj T* ET
+BT /F1 9.1 Tf 10.92 TL ET
+BT 1 0 0 1 74 377.2898 Tm (-   Software, electronics and physical-system integration through prototyping and applied research.) Tj T* ET
+.686275 .686275 .686275 RG
+.75 w
+n 70 360.4898 m 525.2756 360.4898 l S
+0 0 0 RG
+BT /F2 12.7 Tf 15.24 TL ET
+BT 1 0 0 1 70 342.4898 Tm (LANGUAGES) Tj T* ET
+BT /F1 9.8 Tf 11.76 TL ET
+BT 1 0 0 1 72 324.4898 Tm (-   English - Intermediate) Tj T* ET
+BT /F1 9.8 Tf 11.76 TL ET
+BT 1 0 0 1 72 311.4898 Tm (-   Spanish - Basic) Tj T* ET
+ 
 endstream
 endobj
 xref
-0 9
+0 16
 0000000000 65535 f 
-0000000015 00000 n 
-0000000112 00000 n 
-0000000214 00000 n 
-0000000277 00000 n 
-0000000326 00000 n 
-0000000462 00000 n 
-0000003070 00000 n 
-0000003206 00000 n 
+0000000061 00000 n 
+0000000122 00000 n 
+0000000229 00000 n 
+0000000337 00000 n 
+0000000446 00000 n 
+0000000633 00000 n 
+0000000817 00000 n 
+0000000996 00000 n 
+0000001231 00000 n 
+0000001343 00000 n 
+0000001549 00000 n 
+0000001619 00000 n 
+0000001922 00000 n 
+0000001989 00000 n 
+0000007693 00000 n 
 trailer
-<< /Size 9 /Root 4 0 R >>
+<<
+/ID 
+[<401fdc548afd1f6a906b231a3bdc79c7><401fdc548afd1f6a906b231a3bdc79c7>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 12 0 R
+/Root 11 0 R
+/Size 16
+>>
 startxref
-5542
+11924
 %%EOF
