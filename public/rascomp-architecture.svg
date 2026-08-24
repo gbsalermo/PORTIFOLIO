@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitetura do RASCOMP</title>
+  <desc id="desc">Arquitetura do RASCOMP com frontend de gestão e público, API Spring Boot, segurança JWT, MySQL e fluxos separados para Follow Line e Sumô.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090b"/>
+      <stop offset="1" stop-color="#111116"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity=".32"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#b91c1c"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="720" rx="34" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="718" rx="33" fill="none" stroke="#27272d"/>
+
+  <text x="64" y="74" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">RASCOMP / COMPETITION PLATFORM</text>
+  <text x="64" y="106" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="15">Do cadastro ao resultado com regras específicas por modalidade</text>
+  <circle cx="1112" cy="73" r="7" fill="#b91c1c"/>
+  <text x="1138" y="79" text-anchor="end" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="12">JAVA 21 + SPRING BOOT</text>
+
+  <g filter="url(#shadow)">
+    <rect x="64" y="154" width="242" height="106" rx="18" fill="#131318" stroke="#303038"/>
+    <text x="88" y="190" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">GESTÃO</text>
+    <text x="88" y="218" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Organização · JWT</text>
+    <text x="88" y="241" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Inscrições · Provas · Resultados</text>
+
+    <rect x="64" y="290" width="242" height="106" rx="18" fill="#131318" stroke="#303038"/>
+    <text x="88" y="326" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">PORTAL PÚBLICO</text>
+    <text x="88" y="354" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Equipes · Rankings</text>
+    <text x="88" y="377" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Chaves · Resultados sanitizados</text>
+
+    <rect x="390" y="192" width="336" height="164" rx="22" fill="#171315" stroke="#7f1d1d" stroke-width="1.5"/>
+    <text x="416" y="230" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">SPRING BOOT REST API</text>
+    <text x="416" y="260" fill="#ef4444" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700">SECURITY / JWT / OWNERSHIP</text>
+    <text x="416" y="287" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="13">Controllers · DTOs · Services</text>
+    <text x="416" y="311" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="13">Equipes · Competidores · Robôs</text>
+    <text x="416" y="335" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="13">Competições · Categorias · Inscrições</text>
+
+    <rect x="826" y="178" width="310" height="192" rx="22" fill="#101014" stroke="#303038"/>
+    <text x="852" y="217" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">DATA + PROCESS</text>
+    <text x="852" y="252" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="14">MySQL + JPA/Hibernate</text>
+    <text x="852" y="278" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Flyway migrations</text>
+    <text x="852" y="317" fill="#d4d4d8" font-family="Inter,Arial,sans-serif" font-size="14">Camunda 7</text>
+    <text x="852" y="343" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Infraestrutura de processos humanos</text>
+  </g>
+
+  <g fill="none" stroke="#b91c1c" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M306 207H380"/>
+    <path d="M306 343H380"/>
+    <path d="M726 274H816"/>
+  </g>
+
+  <text x="64" y="456" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="700">COMPETITIVE DOMAIN</text>
+
+  <g filter="url(#shadow)">
+    <rect x="64" y="486" width="500" height="150" rx="20" fill="#111116" stroke="#2f2f37"/>
+    <text x="90" y="521" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">FOLLOW LINE</text>
+    <text x="90" y="550" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Inscrição aprovada → ConfigFollow → tomadas</text>
+    <text x="90" y="575" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">tentativas → penalidades/checkpoints → ranking</text>
+    <rect x="378" y="532" width="154" height="54" rx="13" fill="#251215" stroke="#991b1b"/>
+    <text x="455" y="555" text-anchor="middle" fill="#fca5a5" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">MENOR TEMPO</text>
+    <text x="455" y="575" text-anchor="middle" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="11">vence</text>
+
+    <rect x="636" y="486" width="500" height="150" rx="20" fill="#111116" stroke="#2f2f37"/>
+    <text x="662" y="521" fill="#f4f4f5" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700">SUMÔ</text>
+    <text x="662" y="550" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">Inscrição aprovada → inspeção → bracket</text>
+    <text x="662" y="575" fill="#8b8b95" font-family="Inter,Arial,sans-serif" font-size="13">match → rounds → resultado → avanço automático</text>
+    <rect x="950" y="532" width="154" height="54" rx="13" fill="#251215" stroke="#991b1b"/>
+    <text x="1027" y="555" text-anchor="middle" fill="#fca5a5" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">CAMPEÃO</text>
+    <text x="1027" y="575" text-anchor="middle" fill="#a1a1aa" font-family="Inter,Arial,sans-serif" font-size="11">progressão automática</text>
+  </g>
+
+  <path d="M558 356V445H314V476" fill="none" stroke="#3f3f46" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M558 356V445H886V476" fill="none" stroke="#3f3f46" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="64" y="682" fill="#52525b" font-family="Inter,Arial,sans-serif" font-size="12">MODELED FROM USERS + OWNERSHIP → COMPETITION DOMAIN → MODALITY RULES → RESULTS</text>
+  <text x="1136" y="682" text-anchor="end" fill="#71717a" font-family="Inter,Arial,sans-serif" font-size="12">API VALIDATED</text>
+</svg>
