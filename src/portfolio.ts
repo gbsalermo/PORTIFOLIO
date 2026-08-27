@@ -111,7 +111,7 @@ export const projects: Project[] = [
     github: 'https://github.com/gbsalermo/Rascomp',
     status: { pt: 'API validada', en: 'API validated' },
     featured: true,
-    preview: './rascomp-architecture.svg',
+    preview: './rascomp.png',
     previewAlt: {
       pt: 'Arquitetura do RASCOMP com gestão, portal público, API, persistência e fluxos Follow Line e Sumô',
       en: 'RASCOMP architecture with management, public portal, API, persistence and Follow Line and Sumo flows',
