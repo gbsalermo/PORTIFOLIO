@@ -1,6 +1,7 @@
 # Gabriel Salermo — Portfólio
 
 Portfólio pessoal desenvolvido em **React + TypeScript + Vite**, com foco em apresentar projetos, experiência e stack de forma clara para recrutadores, clientes e parceiros.
+Link: https://salermodev.netlify.app/
 
 ## Direção visual
 
