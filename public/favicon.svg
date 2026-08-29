@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="GS">
   <rect width="64" height="64" rx="16" fill="#0b0b0c"/>
-  <path d="M18 20h28v8H27v8h15v8H27v8h19v8H18V20Z" fill="#b91c1c"/>
+  <rect x="1" y="1" width="62" height="62" rx="15" fill="none" stroke="#2a2a30"/>
+  <text x="32" y="39" text-anchor="middle" fill="#b91c1c" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" letter-spacing="-1">GS</text>
 </svg>
