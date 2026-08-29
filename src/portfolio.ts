@@ -196,13 +196,13 @@ export const experiences = [
   {
     period: '2026 — atual',
     periodEn: '2026 — present',
-    title: { pt: 'Desenvolvimento Java + Spring Boot', en: 'Java + Spring Boot Development' },
+    title: { pt: 'Desenvolvimento de Software · Java/Spring Boot', en: 'Software Development · Java/Spring Boot' },
     place: { pt: 'Embrapa · Estágio', en: 'Embrapa · Internship' },
     description: {
-      pt: 'Manutenção e evolução de backend Java/Spring Boot, APIs REST e integração com PostgreSQL, com contato também com frontend Vue.js e demandas de sistemas reais.',
-      en: 'Maintenance and evolution of Java/Spring Boot backend services, REST APIs and PostgreSQL integration, with exposure to Vue.js frontend and real production-system demands.',
+      pt: 'Atuação na manutenção, correção e evolução de sistemas corporativos com Java, Spring Boot, Vue.js e PostgreSQL; desenvolvimento e manutenção de APIs REST, regras de negócio e persistência com JPA/Hibernate; participação em fluxos Camunda e ambiente DevOps com Docker, Git/GitHub, Maven e Postman. Desenvolvimento também de soluções sob demanda, incluindo o SGL — Sistema de Gestão de Laboratórios, participando da modelagem e integração entre backend, frontend e banco de dados.',
+      en: 'Maintenance, troubleshooting and evolution of corporate systems using Java, Spring Boot, Vue.js and PostgreSQL; development and maintenance of REST APIs, business rules and persistence with JPA/Hibernate; participation in Camunda workflows and a DevOps environment using Docker, Git/GitHub, Maven and Postman. Also developing on-demand solutions, including SGL — Laboratory Management System, contributing to modeling and integration across backend, frontend and database layers.',
     },
-    tags: ['Java', 'Spring Boot', 'PostgreSQL', 'Vue.js'],
+    tags: ['Java', 'Spring Boot', 'PostgreSQL', 'Vue.js', 'Camunda', 'Docker', 'DevOps'],
   },
   {
     period: '2024 — 2025',
